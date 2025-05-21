@@ -1,4 +1,4 @@
-# rabbikaOS
+# rabbikaOS (IN PROCESS)
 A webOS inspired get-to-know-me informal portfolio
 ## Tech stacks used
 
