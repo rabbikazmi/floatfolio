@@ -1,0 +1,219 @@
+/* general styles */
+body {
+  font-family: 'Noto Sans', sans-serif;
+  background-color: #fff;
+  background-image: url(./bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+  margin: 0;
+}
+
+/* top bar */
+.top-bar {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, 0.125);
+  color: #fff;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.top-bar-item {
+  margin: 8px;
+  font-weight: 700;
+  background-color: rgba(256, 256, 256, 0.125);
+  padding: 4px 12px;
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+/* welcome window */
+.window {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  border-radius: 16px;
+  position: absolute;
+  top: calc(50% - 150px); 
+  left: calc(50% - 200px);
+  backdrop-filter: blur(4px);
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  width: 404px;
+  height:auto;
+}
+
+.window-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  cursor: move;
+  justify-content: space-between;
+  padding: 8px;
+  background-color: rgba(0, 0, 0, 0.1);
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.window-content {
+  background-color: #fff;
+  padding: 16px;
+  text-align: left;
+}
+
+.window-content img {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.window-content h1 {
+  margin: 4px 0;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.window-content p {
+  margin: 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.window {
+  position: absolute;
+  z-index: 1;
+}
+
+/* close Button */
+.closebutton {
+  position: absolute;
+  left: 8px; 
+  top: 50%;
+  transform: translateY(-50%);
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  background-color: #EC6B5E;
+  border-radius: 50%;
+  border: solid 1px rgba(0, 0, 0, 0.25);
+}
+#welcomeheader {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  padding: 8px;
+  background-color: transparent;
+  position:relative
+}
+#welcomeheader p {
+  position: absolute;
+  justify-content: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+#aboutheader {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  padding: 8px;
+  background-color: transparent;
+  position:relative
+}
+#aboutheader p {
+  position: absolute;
+  justify-content: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+#interestheader {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  padding: 8px;
+  background-color: transparent;
+  position:relative
+}
+#interestheader p {
+  position: absolute;
+  justify-content: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+#contactheader {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  padding: 8px;
+  background-color: transparent;
+  position:relative
+}
+#contactheader p {
+  position: absolute;
+  justify-content: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+#imageheader {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  padding: 8px;
+  background-color: transparent;
+  position:relative
+}
+#imageheader p {
+  position: absolute;
+  justify-content: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+}
+#tunesheader {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  padding: 8px;
+  background-color: transparent;
+  position:relative
+}
+#tunesheader p {
+  position: absolute;
+  justify-content: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+}
