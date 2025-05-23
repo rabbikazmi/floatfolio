@@ -5,7 +5,8 @@ A floaty window-based get-to-know-me portfolio
 html, css, javascript
 
 ## Easter egg
-After closing all the windows you can access to the easter egg!
+After closing all the windows you can get access to the easter egg!
+
 Have fun!
 
 ## Extra Info
