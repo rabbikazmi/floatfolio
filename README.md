@@ -13,6 +13,8 @@ Have fun!
 
 this was made with the help of https://jams.hackclub.com/batch/webOS tutorial!
 
+And was inspired by a WebOS project i came upon on codedex!
+
 the icons were taken from pinterest!
 
 the spotify playlist belongs to me!
