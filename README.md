@@ -21,3 +21,5 @@ the spotify playlist belongs to me!
 
 the background image used is taken by me!
 
+(ps. i had lots and lots of fun building this, tho smtimes it crashed me out)
+
